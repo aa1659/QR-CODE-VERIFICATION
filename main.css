@@ -1,0 +1,40 @@
+body{
+    margin: unset;
+    background-color:lightgray;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    min-height: 100vh;
+}
+
+::before
+::after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+    border-radius: 0.675rem;
+}
+
+main{
+    background-color: white;
+    max-width: 375px;
+    padding: 1.075rem;
+    border-radius: 1.35rem;
+    box-shadow: 0 1.6rem 1.6rem hsla(0, 0%, 0%, 0.05);
+    margin: 0.075rem;
+}
+
+h1{
+    font-size: 1.375rem;
+}
+
+p{
+    line-height: 1.3rem;
+    color: var(..color-blue);
+    margin:1.075em;
+}
